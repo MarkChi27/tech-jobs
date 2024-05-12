@@ -1,8 +1,12 @@
-# React + Vite
+# Personal Project - "Tech Jobs"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a job listing website with CRUD features using React, JavaScript, Vite, Tailwind CSS, and JSON Server.
 
-Currently, two official plugins are available:
+Note that you need to install JSON server package to run this on your local host properly. The command is below:
+```
+npm install json-server
+```
+You can add -D (developer option) to this command if you want.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```npm run dev``` is for running the website at port 3000,
+```npm run server``` is for starting the JSON server at port 8000
